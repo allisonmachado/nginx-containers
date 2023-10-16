@@ -2,6 +2,8 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'application/json');
+
+  console.log('request: ', req.method, req.url);
   
   if (req.url === '/') {
     res.statusCode = 200;
