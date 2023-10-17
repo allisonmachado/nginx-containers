@@ -15,3 +15,7 @@ A minimal reverse proxy config for a node.js application with a path rewrite exa
 ## 3. [Named Proxy Server](https://github.com/allisonmachado/nginx-docker-labs/tree/master/named-proxy-server)
 
 A reverse proxy where requests are routed by their host name.
+
+## 4. [Load Balancer Server](https://github.com/allisonmachado/nginx-docker-labs/tree/master/named-proxy-server)
+
+Use nginx as a very efficient HTTP load balancer to distribute traffic to multiple servers.
